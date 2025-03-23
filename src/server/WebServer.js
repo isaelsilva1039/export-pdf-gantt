@@ -30,7 +30,7 @@ module.exports = class WebServer extends ExportServer {
             app = me.app = express();
 
         options = Object.assign({
-            timeout : 5 * 60 * 1000 // 5 minutes
+            timeout : 5 * 60 * 1000
         }, options);
 
         app.use(addRequestId);

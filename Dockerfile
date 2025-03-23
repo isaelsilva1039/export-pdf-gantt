@@ -48,6 +48,6 @@ WORKDIR /home/pptruser
 
 RUN npm i
 
-EXPOSE 8080 8081
+EXPOSE 8082 8083
 
-ENTRYPOINT [ "node", "./src/server.js", "-H", "8081" ]
+ENTRYPOINT [ "node", "./src/server.js", "-H", "8082" ]
