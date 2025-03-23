@@ -1,3 +1,0 @@
-run = "node ./src/server.js -h 8082 -c \"*\" -m 100mb --no-sandbox --verbose --max-workers 2 -r ./resources"
-[env]
-PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true"
