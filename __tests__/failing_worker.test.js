@@ -28,7 +28,7 @@ describe('Should export content with randomly failing workers', () => {
         const
             host     = 'localhost',
             protocol = 'http',
-            port     = 8081,
+            port     = 8082,
             workers  = 4;
 
         server = await startServer({ protocol, port, workers, testing : true, logger : getLoggerConfig('failing_workers') });
