@@ -1,7 +1,6 @@
+version: "3.9"
 services:
-  bryntum-export:
-    image: bryntum/pdf-export-server:latest
-    container_name: bryntum_pdfexport_server
-    restart: "no"
+  web:
+    image: "bryntum/pdf-export-server:1.0.1"
     ports:
-      - "8082-8083:8082-8083"
+      - "8081:8080"
