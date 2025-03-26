@@ -9,7 +9,7 @@ const net = require("net");
 const Socket = net.Socket;
 
 // https://stackoverflow.com/a/66116887
-async function getNextPort(port = 8081, maxPort = 10000) {
+async function getNextPort(port = 8080, maxPort = 10000) {
     return new Promise((resolve, reject) => {
         let socket;
 

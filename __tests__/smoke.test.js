@@ -15,7 +15,7 @@ describe('Should export over HTTP', () => {
     test('Should export to PDF', async () => {
         const
             protocol = 'http',
-            port     = 8081,
+            port     = 8080,
             workers  = 1;
 
         server = await startServer({ protocol, port, workers, logger : getLoggerConfig('smoke_http_pdf') })

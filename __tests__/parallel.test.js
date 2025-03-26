@@ -20,7 +20,7 @@ describe('Should export over HTTP', () => {
         const
             host       = 'localhost',
             protocol   = 'http',
-            port       = 8081,
+            port       = 8080,
             workers    = 4,
             fileFormat = 'pdf';
 
@@ -67,7 +67,7 @@ describe('Parallel export requests received in very specific moments should work
     test('', async () => {
         const
             protocol = 'http',
-            port     = 8081,
+            port     = 8080,
             workers  = 2;
 
         server = await startServer({ protocol, port, workers, logger : getLoggerConfig('parallel_2') });
